@@ -1,0 +1,30 @@
+#second-footer {
+    height: 70px;
+    width: 100%;
+    background-color: #303030;
+    justify-content: space-between;
+    align-items: center;
+
+    .btn {
+        background-color: #303030;
+        padding: 0 10px;
+        border: 2px solid #0282f9;
+    }
+
+    #follow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h5 {
+            color: #0282f9;
+            margin-right: 15px;
+        }
+
+        img {
+            margin-left: 15px;
+            width: 25px;
+        }
+    }
+
+}

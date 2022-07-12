@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('home', [
         'headerLinks_arr' => config('headerLinks'),
         'comics_arr' => config('comics'),
-        'info_arr' => config('info')
+        'info_arr' => config('info'),
+        'footerLinks_arr' => config('footerLinks'),
+        'socialLinks_arr' => config('socialLinks')
     ]);
 })->name('home');

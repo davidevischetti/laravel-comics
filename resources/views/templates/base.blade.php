@@ -17,5 +17,9 @@
     @include('partials.info')
 
     @include('partials.footer')
+
+    @include('partials.footer_2')
+
+
 </body>
 </html>
