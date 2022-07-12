@@ -1,0 +1,23 @@
+.info {
+    background-color: #0282f9;
+    align-items: center;
+    justify-content: space-around;
+
+    figure {
+      display: flex;
+      align-items: center;
+      padding: 40px 0;
+
+      img {
+        height: 50px;
+        width: 50px;
+        object-fit: contain;
+      }
+
+      figcaption {
+        color: #fff;
+        font-size: 12px;
+        margin-left: 10px;
+      }
+    }
+  }

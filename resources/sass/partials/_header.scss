@@ -1,0 +1,33 @@
+header {
+    &.container {
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    img {
+      height: 70px;
+    }
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      a {
+        display: block;
+        text-decoration: none;
+        color: #666;
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0 10px;
+        height: 100px;
+        line-height: 100px;
+
+        &.link:hover {
+            border-bottom: 4px solid #0282f9;
+            color: #0282f9;
+          }
+      }
+    }
+}

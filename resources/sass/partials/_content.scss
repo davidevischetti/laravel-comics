@@ -1,0 +1,41 @@
+section {
+    background-color: #1c1c1c;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    #product-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+
+      figure {
+        width: 150px;
+        margin-top: 50px;
+
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        figcaption {
+            color: #fff;
+            font-size: 15px;
+        }
+    }
+    }
+
+    h1 {
+      color: #fff;
+      margin-top: 20px;
+    }
+
+    .btn {
+      margin: 20px 0;
+      background-color: #0282f9;
+      border: none;
+      padding: 0 40px;
+    }
+  }
