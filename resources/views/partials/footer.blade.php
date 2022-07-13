@@ -1,7 +1,7 @@
 <footer id="main-footer" class="container">
 
     <div id="links-container">
-        @foreach ($footerLinks_arr as $list)
+        @foreach (config('footerLinks') as $list)
             <div class="links-list">
             <h4>{{$list['title']}}</h4>
             <ul>

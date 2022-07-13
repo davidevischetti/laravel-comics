@@ -1,5 +1,5 @@
 <section class="container info">
-    @foreach ($info_arr as $info)
+    @foreach (config('info') as $info)
         <figure>
             <img src="{{$info['img']}}" alt="{{$info['text']}}">
             <figcaption>{{$info['text']}}</figcaption>
