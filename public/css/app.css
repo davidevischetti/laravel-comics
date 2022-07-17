@@ -88,12 +88,13 @@ section #product-list {
   margin-bottom: 20px;
 }
 
-section #product-list figure {
+section #product-list a {
   width: 150px;
   margin-top: 50px;
+  text-decoration: none;
 }
 
-section #product-list figure img {
+section #product-list a img {
   width: 150px;
   height: 150px;
   -o-object-fit: cover;
@@ -102,7 +103,7 @@ section #product-list figure img {
      object-position: top;
 }
 
-section #product-list figure figcaption {
+section #product-list a figcaption {
   color: #fff;
   font-size: 15px;
 }
@@ -215,5 +216,75 @@ section .btn {
 #second-footer #follow img {
   margin-left: 15px;
   width: 25px;
+}
+
+#container-info {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#container-info img {
+  width: 300px;
+  height: 250px;
+  margin-left: 30px;
+}
+
+#container-info #comic-info h2 {
+  color: #06c;
+}
+
+#container-info #comic-info .buy {
+  display: flex;
+  background-color: #51b856;
+  height: 40px;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  color: #81d856;
+  font-weight: 600;
+}
+
+#container-info #comic-info .buy span {
+  color: #fff;
+}
+
+#container-info #comic-info .buy .check {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid #060;
+}
+
+#container-info #comic-info p {
+  margin-top: 20px;
+  color: #666;
+}
+
+#specifiche {
+  background-color: #f6f6f6;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+#specifiche #talent-specs {
+  width: 45%;
+}
+
+#specifiche #talent-specs h3 {
+  color: #034;
+  padding: 20px 0;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+#specifiche #talent-specs div {
+  color: #034;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+#specifiche #talent-specs div p {
+  width: 60%;
+  color: #06c;
 }
 

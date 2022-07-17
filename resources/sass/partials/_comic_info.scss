@@ -1,0 +1,73 @@
+#container-info {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    img {
+        width: 300px;
+        height: 250px;
+        margin-left: 30px;
+    }
+
+    #comic-info {
+        h2 {
+            color: #06c;
+        }
+
+        .buy {
+            display: flex;
+            background-color: #51b856;
+            height: 40px;
+            align-items: center;
+            padding: 20px;
+            justify-content: space-between;
+            color: #81d856;
+            font-weight: 600;
+
+            span {
+                color: #fff;
+            }
+
+            .check {
+                margin-left: 20px;
+                padding-left: 20px;
+                border-left: 1px solid #060;
+            }
+
+        }
+
+        p {
+            margin-top: 20px;
+            color: #666;
+        }
+    }
+
+}
+
+#specifiche {
+    background-color: #f6f6f6;
+    padding-bottom: 50px;
+    justify-content: space-between;
+
+    #talent-specs {
+        width: 45%;
+
+        h3 {
+            color: #034;
+            padding: 20px 0;
+            border-bottom: 1px solid #a6a6a6;
+        }
+
+        div {
+            color: #034;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #a6a6a6;
+            p {
+                width: 60%;
+                color: #06c;
+
+            }
+        }
+    }
+}
